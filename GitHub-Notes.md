@@ -7,7 +7,7 @@ git init
 git add README.md
 git commit -m "备注"
 git branch -M main
-git remote add origin git@github.com:/.....git
+git remote add origin git@github.com:178cmxiaoman/GapYearNotes.git
 git remote add git push -u origin main
 ```
 
@@ -19,4 +19,10 @@ git push -u orgin main
 ```
 
 
-<iframe src="//player.bilibili.com/player.html?aid=846584229&bvid=BV1V54y1n7Wn&cid=365449629&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe 
+src="//player.bilibili.com/player.html?aid=846584229&bvid=BV1V54y1n7Wn&cid=365449629&p=1" 
+scrolling="no" 
+width="800px" height="600px" 
+border="0" frameborder="no" framespacing="0" allowfullscreen="true"> 
+</iframe>
