@@ -76,5 +76,5 @@ $$
 上标X^2^
 
 
-# 本文参考链接
-<iframe src="//player.bilibili.com/player.html?aid=327623069&bvid=BV1JA411h7Gw&cid=171385214&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+### 参考资料
+[B站视频链接](https://www.bilibili.com/video/BV1JA411h7Gw/?share_source=copy_web&vd_source=de3781bf44c9af553019ed79ccd92886)

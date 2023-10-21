@@ -20,9 +20,4 @@ git push -u orgin main
 
 
 
-<iframe 
-src="//player.bilibili.com/player.html?aid=846584229&bvid=BV1V54y1n7Wn&cid=365449629&p=1" 
-scrolling="no" 
-width="800px" height="600px" 
-border="0" frameborder="no" framespacing="0" allowfullscreen="true"> 
-</iframe>
+[B站视频链接](https://www.bilibili.com/video/BV1V54y1n7Wn/?share_source=copy_web&vd_source=de3781bf44c9af553019ed79ccd92886)
