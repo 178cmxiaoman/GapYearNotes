@@ -1,5 +1,26 @@
 # GitHub学习笔记
-### 初始化操作
+
+### 常用Linux命令：
+```
+cd		进入目录
+cd..	回到上一级目录
+pwd		显示当前目录的路径
+ls		列出当前目录中所有文件
+ll		列出当前目录中所有文件（更为详细）
+touch	新建一个文件，例如touch test.txt
+rm		删除一个文件，例如rm test.txt
+mkdir	新建一个文件夹，例如mkdir test
+rm -r	删除一个文件夹，例如rm -r src
+mv		移动文件，例如mv index.html src
+reset	重新初始化终端
+clear	清屏
+history	查看历史命令
+help	查看命令历史
+exit	退出
+#		注释
+```
+
+### Git初始化操作
 首先要在github上创建好仓库
 ```
 echo "name" >> README.md
@@ -19,5 +40,30 @@ git push -u orgin main
 ```
 
 
+### 常用git指令
+```
+#在当前目录新建一个Git代码库
+git init
 
+#克隆一个项目和它的整个代码历史（版本信息）
+git clone 链接地址
+
+#查看制定文件状态
+git status [文件名]
+
+#查看所有文件状态
+git status
+
+#添加所有文件到暂存区
+git add . 
+
+#提交暂存区中的内容到本地仓库 -m:提交的信息
+git commit -m "信息"
+
+```
+
+
+### 参考资料
 [B站视频链接](https://www.bilibili.com/video/BV1V54y1n7Wn/?share_source=copy_web&vd_source=de3781bf44c9af553019ed79ccd92886)
+
+[博客文字教程](https://blog.csdn.net/weixin_48152652/article/details/124258293?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169753029816800197051283%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169753029816800197051283&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-124258293-null-null.142^v96^pc_search_result_base4&utm_term=git%E6%95%99%E7%A8%8B&spm=1018.2226.3001.4187)
