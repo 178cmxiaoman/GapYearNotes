@@ -1,10 +1,17 @@
 # 一个将于2024年从数院跨保至计算机的noob小蛮，于Gap Year的学习记录
 
-## 2023年10月21日
-学习完GitHub基本操作和Markdown基础书写操作  
-[GitHub学习笔记](/GitHub-Notes.md)  
-[Markdown学习笔记](/Markdown-Notes.md)
+## 基础跳转链接
+ 
+[GitHub 学习笔记](/GitHub-Notes.md)</br>
+[Markdown 学习笔记](/Markdown-Notes.md)</br>
+[Visual Studio Code 学习笔记](/VSCODE-Notes.md)</br>
 
-## 参考资料
-[B站视频链接](https://www.bilibili.com/video/BV1V54y1n7Wn/?share_source=copy_web&vd_source=de3781bf44c9af553019ed79ccd92886)
+## 机器学习目录
+[机器学习基本知识点](/Machine%20Learning/机器学习基本知识点.md)
+
+## Linux系统学习目录
+[Linux 基础学习笔记](/Linux/Linux-Notes.md)</br>
+[shell 学习笔记](/Linux/Shell-Notes.md)</br>
+
+<!-- ## 参考资料 -->
 

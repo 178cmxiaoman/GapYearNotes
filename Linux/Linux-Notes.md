@@ -1,4 +1,4 @@
-# Linux 学习笔记
+# Linux 基础学习笔记
 [Linux操作系统详细介绍](https://blog.csdn.net/m0_52051132/article/details/128362191?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169822650416800182121857%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=169822650416800182121857&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-128362191-null-null.142^v96^pc_search_result_base4&utm_term=linux%E5%92%8Ccontes%E5%85%B3%E7%B3%BB&spm=1018.2226.3001.4187)
 
 [Linux入门参考博客教程(本文主要参考)](https://blog.csdn.net/leah126/article/details/131558171?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169821543916800225537867%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169821543916800225537867&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-1-131558171-null-null.142^v96^pc_search_result_base4&utm_term=linux%E6%95%99%E5%AD%A6&spm=1018.2226.3001.4187)
@@ -6,16 +6,19 @@
 
 ## 常用Linux命令：
 ```
+# 最常用
 cd		进入目录
 cd..	回到上一级目录
-pwd		显示当前目录的路径
 ls		列出当前目录中所有文件
-ll		列出当前目录中所有文件（更为详细）
 cat     查看文件
 touch	新建一个文件，例如touch test.txt
 rm		删除一个文件，例如rm test.txt
-mkdir	新建一个文件夹，例如mkdir test
+rm -rf  删除当前目录下的所有文件,这个命令很危险，应避免使用。所删除的文件，一般都不能恢复！
+
+pwd		显示当前目录的路径、
 rm -r	删除一个文件夹，例如rm -r src
+mkdir	新建一个文件夹，例如mkdir test
+ll		列出当前目录中所有文件（更为详细）
 mv		移动文件，例如mv index.html src
 reset	重新初始化终端
 clear	清屏
@@ -208,6 +211,30 @@ rpm -qa|grep yum    查看yum是否安装
 yum install 包名    安装包
 ```
 [yum详细博客链接](https://blog.csdn.net/qq_36299025/article/details/90901055?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169822191516800197089531%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169822191516800197089531&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-90901055-null-null.142^v96^pc_search_result_base4&utm_term=yum&spm=1018.2226.3001.4187)
+
+## Centos和Ubuntu有什么区别
+[参考博客](https://blog.csdn.net/weixin_68100450/article/details/125805277?ops_request_misc=&request_id=&biz_id=102&utm_term=centos7%E5%92%8Cubuntu&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-125805277.nonecase&spm=1018.2226.3001.4187)
+
+CentOS是脱胎于 Red Hat Enterprise Linux (RHEL) 并与之兼容的由社区支持的克隆版 Linux 发行版，所以我们可以认为 CentOS 是 RHEL 的一个免费版。CentOS 的每一套发行版都有 10 年的维护期，每个新版本的释出周期为 2 年。在 2014 年 1 月 8 日，CentOS 声明正式加入红帽，为新的 CentOS 董事会所管理，但仍然保持与 RHEL 的独立性。
+
+Ubuntu 是一个基于 Debian 的 Linux 操作系统，应用于桌面、服务器、智能手机和平板电脑等多个领域。Ubuntu 是由一个英国的名为 Canonical Ltd. 的公司发行的，由南非的 Mark Shuttleworth 创立并赞助。
+
+## 如何判断自己的Linux系统是Centos还是Ubuntu？
+[参考博客](https://blog.csdn.net/yanbw/article/details/122485374?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169839660616777224414912%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169839660616777224414912&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-122485374-null-null.142^v96^pc_search_result_base4&utm_term=%E6%80%8E%E4%B9%88%E6%9F%A5%E7%9C%8B%E6%98%AFcentos%E8%BF%98%E6%98%AFubuntu&spm=1018.2226.3001.4187)
+
+Centos(yum)：
+```
+cat /etc/redhat-release #有返回
+yum -help #有返回
+```
+Ubuntu(apt-get)：
+```
+cat /etc/lsb-release #有返回
+apt-get -help #有返回
+```
+
+
+
 
 ## ubuntu18.04 查看cuda和cudnn版本
 1.查看cuda版本
