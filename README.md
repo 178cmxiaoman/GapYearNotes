@@ -1,5 +1,8 @@
 # 一个将于2024年从数院跨保至计算机的noob小蛮，于Gap Year的学习记录
 
+## 保研经验分享
+[四非数学系到211计算机硕士：我的苏州大学跨专业保研经验分享](/Math-Experience.md)
+
 ## 基础软件使用技巧
 [计算机科研向大学生常用软件推荐](https://zhuanlan.zhihu.com/p/317200254)</br>
 [Visual Studio Code 学习笔记](/Software-Notes/VSCODE-Notes.md)</br>
