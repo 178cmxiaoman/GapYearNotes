@@ -16,6 +16,7 @@
 
 ## Linux系统学习目录
 [Linux 基础学习笔记](/Linux/Linux-Notes.md)</br>
+[利用GPT辅助书写的 Linux 基础学习笔记](/Linux/Linux-Notes2.md)</br>
 [shell 学习笔记](/Linux/Shell-Notes.md)</br>
 
 

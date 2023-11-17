@@ -1,10 +1,6 @@
 # Linux 基础学习笔记
-[Linux操作系统详细介绍](https://blog.csdn.net/m0_52051132/article/details/128362191?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169822650416800182121857%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=169822650416800182121857&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-128362191-null-null.142^v96^pc_search_result_base4&utm_term=linux%E5%92%8Ccontes%E5%85%B3%E7%B3%BB&spm=1018.2226.3001.4187)
 
-[Linux入门参考博客教程(本文主要参考)](https://blog.csdn.net/leah126/article/details/131558171?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169821543916800225537867%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169821543916800225537867&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-1-131558171-null-null.142^v96^pc_search_result_base4&utm_term=linux%E6%95%99%E5%AD%A6&spm=1018.2226.3001.4187)
-
-
-## 常用Linux命令：
+### 常用Linux命令：
 ```
 # 最常用
 cd		进入目录
