@@ -12,7 +12,8 @@
 
 ## 机器学习目录
 [Python 基础笔记](/Machine%20Learning/Python/Python-Notes.md)</br>
-[机器学习基本知识点](/Machine%20Learning/Basic-Notes.md)
+[机器学习基本知识点](/Machine%20Learning/Basic-Notes.md)</br>
+[pytorch学习笔记](/Machine%20Learning/Pytorch-Notes.md)</br>
 
 ## Linux系统学习目录
 [Linux 基础学习笔记](/Linux/Linux-Notes.md)</br>
